@@ -1,0 +1,36 @@
+.box {
+    width: 100%;
+    height: 630px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box .box__col1{
+    width: 8%;
+    height: 630px;
+
+    background-color: #2d3436;
+}
+
+.box .box__col2{
+    width: 92%;
+    height: 630px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box .box__col2 .box__col2__sec1 {
+    width: 100%;
+    height: 60px;
+
+    background-color: #636e72;
+}
+
+.box .box__col2 .box__col2__sec2 {
+    width: 100%;
+    height: 580px;
+
+    background-color: #dfe6e9;
+}
